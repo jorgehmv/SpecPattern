@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecPattern", "src\SpecPattern\SpecPattern.csproj", "{6DB5BA56-9104-462A-9FD5-DE766EC24D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecPatternTests", "src\SpecPatternTests\SpecPatternTests.csproj", "{08219D73-8C34-46F5-9466-294C960A5D86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E6941E0A-B92B-44BC-B2CD-7007C5EF5910}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DB5BA56-9104-462A-9FD5-DE766EC24D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB5BA56-9104-462A-9FD5-DE766EC24D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB5BA56-9104-462A-9FD5-DE766EC24D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB5BA56-9104-462A-9FD5-DE766EC24D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08219D73-8C34-46F5-9466-294C960A5D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08219D73-8C34-46F5-9466-294C960A5D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08219D73-8C34-46F5-9466-294C960A5D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08219D73-8C34-46F5-9466-294C960A5D86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
