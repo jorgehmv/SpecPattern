@@ -94,3 +94,7 @@ The best part is you dont have to do anything to integrate it with your ORM; if 
 	// Use the same specs but now to query database with an ORM
 	var allGreatButUnpopularProjects = Repository.Query<Project>()
 									.Where(greatButUnpopularSpec.Predicate);
+									
+Nuget Package
+===========================================
+PM> Install-Package SpecPattern
